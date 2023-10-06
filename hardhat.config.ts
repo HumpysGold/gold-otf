@@ -81,6 +81,11 @@ const config: HardhatUserConfig = {
       chainId: 56,
       accounts: accounts(),
     },
+    base: {
+      url: "https://mainnet.base.org",
+      chainId: 8453,
+      accounts: accounts()
+    },
     avalanche: {
       url: "https://api.avax.network/ext/bc/C/rpc",
       chainId: 43114,

@@ -1,0 +1,34 @@
+{
+	"fuji": {
+		"name": "ExampleProxyOFTWithFee",
+		"sendVersion": 3,
+		"receiveVersion": 3,
+		"remoteConfigs": [
+			{
+				"remoteChain": "arbitrum-goerli",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 3,
+				"relayer": "0xA30444B26C171B27c6B3698544490Affa2e12119",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 6,
+				"oracle": "0x92Cfdb3789693C2ae7225fCc2C263de94D630be4"
+			}
+		]
+	},
+	"arbitrum-goerli": {
+		"name": "ExampleOFTWithFee",
+		"sendVersion": 3,
+		"receiveVersion": 3,
+		"remoteConfigs": [
+			{
+				"remoteChain": "fuji",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 6,
+				"relayer": "0x79c2127C2cF1c41cdd0E24e6Ba70b6F3308B7B79",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 3,
+				"oracle": "0x9E13017d416cdf0816bcCaC744760Dd1C374cD20"
+			}
+		]
+	}
+}

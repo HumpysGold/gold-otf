@@ -1,0 +1,11 @@
+{
+	"GoldOFTV2": {
+		"proxyContractName": "GoldProxyOFTV2",
+		"proxyTokenName": "GoldProxyOFTV2",
+		"proxyTokenSymbol": "GOLD",
+		"contractName": "GoldOFTV2",
+		"tokenName": "GoldenBoys",
+		"tokenSymbol": "GOLD",
+		"sharedDecimals": "6"
+	}
+}

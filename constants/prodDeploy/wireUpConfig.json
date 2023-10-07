@@ -1,39 +1,25 @@
 {
   "proxyContractConfig": {
-    "chain": "fuji",
-    "name": "ExampleProxyOFTWithFee"
+    "chain": "base",
+    "name": "GoldProxyOFTV2"
   },
   "contractConfig": {
-    "name": "ExampleOFTWithFee"
+    "name": "GoldOFTV2"
   },
   "chainConfig": {
     "base": {
-      "defaultFeeBp": 0,
-      "useCustomAdapterParams": true,
       "remoteNetworkConfig": {
         "arbitrum":  {
-          "feeBpConfig": {
-            "enabled": false,
-            "feeBp": 0
-          },
           "minDstGasConfig": [2000000, 3200000]
         }
       }
     },
     "arbitrum": {
-      "defaultFeeBp": 0,
-      "useCustomAdapterParams": true,
       "remoteNetworkConfig": {
-        "fuji":  {
-          "feeBpConfig": {
-            "feeBp": 0,
-            "enabled": false
-          },
+        "base":  {
           "minDstGasConfig": [100000, 160000]
         }
       }
     }
-
   }
 }
-

@@ -7,7 +7,7 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "@layerzerolabs/lz-sdk": "latest",
+    "@layerzerolabs/lz-sdk": "0.0.45",
     "@layerzerolabs/solidity-examples": "latest",
     "@layerzerolabs/ua-utils": "0.0.4",
     "@nomiclabs/hardhat-etherscan": "3.0.3",

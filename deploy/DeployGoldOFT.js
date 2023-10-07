@@ -11,7 +11,7 @@ module.exports = async function ({ deployments, getNamedAccounts }) {
     const lzEndpointAddress = LZ_ENDPOINTS.LZ_ADDRESS[hre.network.name]
     console.log({name, symbol, sharedDecimals, lzEndpointAddress})
 
-    await deploy("ExampleOFTV2", {
+    await deploy("GoldOFTV2", {
         from: deployer,
         args: [name, symbol, sharedDecimals, lzEndpointAddress],
         log: true,
